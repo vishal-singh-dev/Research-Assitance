@@ -1,0 +1,6 @@
+Artificial Intelligence is a branch of computer science focused on building systems 
+that can perform tasks requiring human-like intelligence. 
+Machine learning, a subset of AI, allows computers to learn from data without explicit programming. 
+Deep learning models, such as neural networks, enable breakthroughs in image recognition, 
+natural language processing, and generative content creation. 
+Responsible AI emphasizes fairness, transparency, and accountability.
