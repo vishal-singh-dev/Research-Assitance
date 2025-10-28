@@ -1,1 +1,11 @@
 # Research-Assitance
+To set up the project add env file with variables
+MILVUS_HOST=""
+MILVUS_PORT=12345
+COLLECTION_NAME=""
+EMBED_MODEL=""
+GEMINI_MODEL=""
+GEMINI_API_KEY=""
+HF_API_KEY=""
+FALLBACK_HF_CLIENT=""
+HUGGINGFACEHUB_API_TOKEN=""
