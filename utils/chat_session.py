@@ -5,7 +5,6 @@ Handles ephemeral chat session history (user ↔ assistant turns).
 
 from typing import List, Dict
 
-
 class SessionManager:
     def __init__(self):
         self.history: List[Dict[str, str]] = []

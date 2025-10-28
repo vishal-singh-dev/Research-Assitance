@@ -71,7 +71,7 @@ class MilvusMemoryStore:
         if session_id:
             expr += f' && session_id == "{session_id}"'
         
-        results = self.conv_collection.query(
+        results = self.milvus_client.conv_collection.query(
             expr=expr,
             output_fields=["query", "answer", "timestamp", "session_id"],
             limit=last_n
@@ -94,7 +94,7 @@ class MilvusMemoryStore:
             [user_id],
             [preferences]
         ])
-        self.pref_collection.flush()
+        self.milvus_client.pref_collection.flush()
     
     def get_preferences(self, user_id: str) -> Dict:
         """Get user preferences"""
