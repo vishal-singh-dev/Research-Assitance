@@ -74,7 +74,7 @@ class MilvusMemoryStore:
         results = self.milvus_client.conv_collection.query(
             expr=expr,
             output_fields=["query", "answer", "timestamp", "session_id"],
-            limit=last_n
+            limit=last_n    
         )
         
         # Sort by timestamp
