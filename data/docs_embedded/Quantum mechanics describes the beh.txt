@@ -1,0 +1,6 @@
+Quantum mechanics describes the behavior of particles at atomic and subatomic scales. 
+One of its most famous phenomena is quantum entanglement, where two particles remain correlated 
+regardless of distance. This property challenges classical intuitions about locality. 
+Quantum theory also introduces wave-particle duality, showing that light and matter 
+can behave as both waves and particles depending on observation. 
+Modern applications include quantum computing, cryptography, and precision measurement technologies.

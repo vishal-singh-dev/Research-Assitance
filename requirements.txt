@@ -1,0 +1,17 @@
+
+pymilvus
+sentence-transformers
+google-generativeai
+python-dotenv
+numpy
+tqdm
+aiofiles
+aiohttp
+langchain 
+langchain-community 
+langchain-huggingface 
+transformers 
+torch 
+pymilvus 
+sentence-transformers 
+accelerate
